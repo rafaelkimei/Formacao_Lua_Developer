@@ -1,6 +1,11 @@
 
 
-local LARGURA <const> = 70
+global LARGURA <const> = 70
+
+-- habilitar utf-8	
+os.execute("chcp 65001")
+os.execute("clear")
+
 
 ----------------------------------------------------------------------------------------------------
 
@@ -79,11 +84,6 @@ local function Imprime_Linha(texto)
 end
 
 ----------------------------------------------------------------------------------------------------
-
--- habilitar utf-8	
-os.execute("chcp 65001")
-os.execute("clear")
-
 
 
 -- Mob
