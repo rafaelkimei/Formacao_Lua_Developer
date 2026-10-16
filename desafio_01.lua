@@ -92,7 +92,7 @@ local mob_hostil = true
 -- Cartao
 Borda_Superior()
 Imprime_Linha(" ")
-Imprime_Linha("ID:             " .. string.format("%04d",mob_id))
+Imprime_Linha("ID:             " .. string.format("%0004d",mob_id))
 Imprime_Linha("Nome:           " .. mob_name)
 Imprime_Linha("Descrição:      " .. mob_description)
 Imprime_Linha("Emoji favorito: " .. mob_emoji)
