@@ -56,6 +56,8 @@ local mob_xp = 6
 local mob_som = "kkkkkk"
 local mob_periodo = "dia"
 local mob_loot = "hammer"
+local mob_hostil = true
+
 
 
 -- Cartao
