@@ -1,15 +1,32 @@
 
+
+local LARGURA <const> = 70
+
 ----------------------------------------------------------------------------------------------------
 
 --- funcao que imprime a borda superior
 local function Borda_Superior()
-	print("┌───────────────────────────────────────────────────────────────────────┐")
+	io.write("┌")
+
+	for i=1,LARGURA+1,1 do
+		io.write("─")
+	end
+
+	print("┐")
 end
 
 
 --- funcao que imprime a borda inferior
 local function Borda_Inferior()
-	print("└───────────────────────────────────────────────────────────────────────┘")
+
+	io.write("└")
+
+	for i=1,LARGURA+1,1 do
+		io.write("─")
+	end
+
+	print("┘")
+
 end
 
 ----------------------------------------------------------------------------------------------------
